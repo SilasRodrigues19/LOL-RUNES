@@ -18,17 +18,6 @@ export const getRunesRoute = async (app: FastifyInstance) => {
 
       const response = await got(url);
 
-      if (response.statusCode === 404) return 'Use !runas após o jogo iniciar.';
-
-      if (response.statusCode === 429)
-        return 'Aguarde alguns minutos e tente novamente.';
-
-      if (response.statusCode === 403)
-        return `${response.statusCode} - DEBUG: ${response.statusMessage}`;
-
-      if (response.statusCode === 400)
-        return `${response.statusCode} - DEBUG: Region: ${region} SummonerId: ${summonerId}`;
-
       const data: any = JSON.parse(response.body);
 
       const participant = data.participants.find(
@@ -43,14 +32,30 @@ export const getRunesRoute = async (app: FastifyInstance) => {
           return perkInfo ? perkInfo.name : `Runa Desconhecida`;
         });
 
-        const runesText = `──────────────────────────────── ${participant.perks.perkIds.join(
-          ', '
+        const runesText = `────────────────────────────────
+        Runas do ${participant.summonerName} nessa partida:
+        ${participant.perks.perkIds.join(
+          ' - '
         )} ────────────────────────────────`;
 
         return runesText;
       }
     } catch (error) {
-      throw error;
+      
+      switch (error.response.statusCode) {
+        case 400:
+          return `[DEBUG] ${error.response.body}`;
+        case 401:
+        case 403:
+          return 'APIKey inválida ou expirada gere uma nova em https://developer.riotgames.com/'
+        case 404:
+          return 'Use !runas ou !runes após o jogo iniciar';
+        case 429:
+          return 'Aguarde alguns minutos e use o comando novamente';
+        default:
+          throw error;
+      }
+
     }
   });
 };
