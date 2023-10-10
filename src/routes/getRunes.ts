@@ -1,7 +1,7 @@
 import 'dotenv/config';
 
 import { FastifyInstance } from 'fastify';
-const got = require('got');
+import got from 'got';
 
 const apiKey = process.env.RIOT_API_KEY;
 const summonerId = process.env.SUMMONER_ID;
