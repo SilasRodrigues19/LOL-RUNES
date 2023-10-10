@@ -1,0 +1,29 @@
+{
+  "name": "getrunes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src",
+    "dev": "tsx watch src/server.ts",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.3",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.23.2",
+    "ts-node": "^10.9.1",
+    "tsup": "^7.2.0",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.0",
+    "@types/got": "^9.6.12",
+    "fastify-cors": "^6.1.0",
+    "got": "^13.0.0"
+  }
+}

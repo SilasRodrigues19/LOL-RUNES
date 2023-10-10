@@ -1,0 +1,5 @@
+# @name get-runes-route
+
+GET http://localhost:3333/getRunesRoute
+
+###
