@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsup src",
+    "build": "tsup",
     "dev": "tsx watch src/server.ts",
     "start": "node dist/server.js"
   },
@@ -24,6 +24,6 @@
     "@fastify/cors": "^8.4.0",
     "@types/got": "^9.6.12",
     "fastify-cors": "^6.1.0",
-    "got": "^13.0.0"
+    "node-fetch": "2"
   }
 }
