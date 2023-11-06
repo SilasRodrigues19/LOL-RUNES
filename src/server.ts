@@ -1,6 +1,6 @@
 import fastify from 'fastify';
-import { getRunesRoute } from './routes/getRunes';
 import fastifyCors from '@fastify/cors';
+import { getRunesRoute, getSummonerId } from './routes';
 
 const app = fastify();
 
@@ -9,10 +9,14 @@ app.register(fastifyCors, {
 })
 
 app.register(getRunesRoute);
+app.register(getSummonerId);
 
-app.listen({
-  port: 3333,
-  host: '0.0.0.0'
-})
-.then(() => console.log('Server is listening'))
-.catch((err) => console.error(err))
+const host = process.env.NODE_ENV === 'production' ? '0.0.0.0' : 'localhost';
+
+app
+  .listen({
+    port: 3333,
+    host,
+  })
+  .then(() => console.log('Server is listening'))
+  .catch((err) => console.error(err));
