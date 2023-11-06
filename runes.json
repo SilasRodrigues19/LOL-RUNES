@@ -2,6 +2,7 @@
   {
     "id": 8369,
     "name": "First Strike",
+    "namePt": "Primeiro Ataque",
     "majorChangePatchVersion": "11.23",
     "tooltip": "Attacks or abilities against an enemy champion within @GraceWindow.2@s of entering champion combat grants @GoldProcBonus@ gold and <b>First Strike</b> for @Duration@ seconds, causing you to deal <truedamage>@DamageAmp*100@%</truedamage> extra <truedamage>damage</truedamage> against champions, and granting <gold>{{ Item_Melee_Ranged_Split }}</gold> of that damage dealt as <gold>gold</gold>.<br><br>Cooldown: <scaleLevel>@Cooldown@</scaleLevel>s<br><hr><br>Damage Dealt: @f1@<br>Gold Gained: @f2@",
     "shortDesc": "When you initiate champion combat, deal 8% extra damage for 3 seconds and gain gold based on damage dealt.",
@@ -17,6 +18,7 @@
   {
     "id": 8446,
     "name": "Demolish",
+    "namePt": "Demolir",
     "majorChangePatchVersion": "",
     "tooltip": "Charge up a powerful attack against a tower over 3s, while within 600 range of it. The charged attack deals <scaleAD>@f6@</scaleAD> bonus physical damage. <br><hr><br>Cooldown remaining: @f2@<br>Total bonus damage: <scaleAD>@f1@</scaleAD><br>Current Damage: 100 + 35% of your max health",
     "shortDesc": "Charge up a powerful attack against a tower while near it.",
@@ -33,6 +35,7 @@
   {
     "id": 8126,
     "name": "Cheap Shot",
+    "namePt": "Golpe Desleal",
     "majorChangePatchVersion": "9.9",
     "tooltip": "Damaging champions with <b>impaired movement or actions</b> deals 10 - 45 bonus true damage (based on level).<br><br>Cooldown: 4s<br><rules>Activates on damage occurring after the impairment.</rules><br><hr><br>Current Damage: @f2@<br>Total bonus damage dealt: @f1@",
     "shortDesc": "Deal bonus true damage to enemy champions with <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairAct'>impaired movement or actions</lol-uikit-tooltipped-keyword>. ",
@@ -50,6 +53,7 @@
   {
     "id": 8321,
     "name": "Future's Market",
+    "namePt": "Mercado do Futuro",
     "majorChangePatchVersion": "",
     "tooltip": "You can enter debt to buy items. The amount you can borrow increases over time. If you enter debt, you will be charged a lending fee of <attention>50</attention> gold.<br><br>Debt limit: <attention>Available at 2 minutes</attention><br>Future Purchases: <attention>@f3@</attention>",
     "shortDesc": "You can enter debt to buy items.",
@@ -78,6 +82,7 @@
   {
     "id": 8410,
     "name": "Approach Velocity",
+    "namePt": "Velocidade de Aproximação",
     "majorChangePatchVersion": "",
     "tooltip": "Gain <speed>7.5% Move Speed</speed> towards nearby enemy champions that are movement impaired. This bonus is increased to <speed>15% Move Speed</speed> for any enemy champion that you impair. <br><br>Activation Range for CC from allies: 1000<br><hr><br>Time Spent Hasted: @f1@s",
     "shortDesc": "Bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword> towards nearby enemy champions that are <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>movement impaired</lol-uikit-tooltipped-keyword>, increased for enemy champions that you impair.",
@@ -94,6 +99,7 @@
   {
     "id": 8232,
     "name": "Waterwalking",
+    "namePt": "Caminhar Sobre as Águas",
     "majorChangePatchVersion": "",
     "tooltip": "Gain <speed>10 Move Speed</speed> and an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of up to 18 Attack Damage or 30 Ability Power (based on level) when in the river.",
     "shortDesc": "Gain <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword> and AP or AD, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptive</lol-uikit-tooltipped-keyword> in the river.",
@@ -112,6 +118,7 @@
   {
     "id": 8299,
     "name": "Last Stand",
+    "namePt": "Até a Morte",
     "majorChangePatchVersion": "",
     "tooltip": "Deal 5% - 11% increased damage to champions while you are below 60% health. Max damage gained at 30% health.<br><br><rules>Minimum bonus is 5%.<br>Maximum bonus is granted while below 30% health.</rules><br><hr><br>Total bonus damage: <scaleAD>@f1@</scaleAD>",
     "shortDesc": "Deal more damage to champions while you are low on health.",
@@ -129,6 +136,7 @@
   {
     "id": 8112,
     "name": "Electrocute",
+    "namePt": "Eletrocutar",
     "majorChangePatchVersion": "",
     "tooltip": "Hitting a champion with 3 <b>separate</b> attacks or abilities within 3s deals bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword>.<br>Cooldown: 25 - 20s<br><hr><br>Current damage: @f2@ (<scaleAP>+@f3@</scaleAP>) (<scaleAD>+@f4@</scaleAD>)<br>Total Damage Dealt: <scaleAD>@f1@</scaleAD>",
     "shortDesc": "Hitting a champion with 3 <b>separate</b> attacks or abilities in 3s deals bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword>.",
@@ -143,6 +151,7 @@
   {
     "id": 8234,
     "name": "Celerity",
+    "namePt": "Celeridade",
     "majorChangePatchVersion": "9.9",
     "tooltip": "All movement bonuses are 7% more effective on you and gain <speed>1% Move Speed</speed>.<br><br>Currently Granted: <speed>@f1@ Move Speed</speed><br>Extra Distance Traveled: @f2@",
     "shortDesc": "All <speed>Move Speed</speed> bonuses are 7% more effective on you and gain <speed>1% Move Speed</speed>.",
@@ -159,6 +168,7 @@
   {
     "id": 8453,
     "name": "Revitalize",
+    "namePt": "Revitalizar",
     "majorChangePatchVersion": "",
     "tooltip": "Gain 5% Heal and Shield Power.<br><br>Heals and shields you cast or receive are 10% stronger on targets below 40% health.<br><hr><br><scaleAD>Bonus healing</scaleAD>: @f1@<br><scaleAD>Bonus shielding</scaleAD>: @f2@<br><scaleAD>Total Heal and Shield power</scaleAD>: @f4@%",
     "shortDesc": "Gain 5% Heal and Shield Power.<br><br>Heals and shields you cast or receive are 10% stronger on targets below 40% health.",
@@ -176,6 +186,7 @@
   {
     "id": 8360,
     "name": "Unsealed Spellbook",
+    "namePt": "Livro de Feitiços Deslacrado",
     "majorChangePatchVersion": "8.9",
     "tooltip": "Swap one of your equipped Summoner Spells to a new, single use Summoner Spell. Each unique Summoner Spell you swap to permanently decreases your swap cooldown by 25s (initial swap cooldown is at 5 mins). <br><br>Your first swap becomes available at 6 mins. <br><rules><br>Summoner Spells can only be swapped while out of combat. <br>After using a swapped Summoner Spell you must swap 3 more times before the first can be selected again.<br>Smite damage increases after two Summoner Spell swaps. </rules><hr><br>Unique Summoner Spells Used: @f4@/@f8@<br>Current Swap Cooldown: @f3@ seconds",
     "shortDesc": "Swap Summoner Spells while out of combat. Swapping to unique Summoner Spells will increase the rate at which you can make future swaps.",
@@ -202,6 +213,7 @@
   {
     "id": 8128,
     "name": "Dark Harvest",
+    "namePt": "Colheita Sombria",
     "majorChangePatchVersion": "8.23",
     "tooltip": "Damaging a champion below 50% health deals <scaleAD>@f8@ physical damage</scaleAD> and harvests their soul, permanently increasing Dark Harvest's damage by <font color='#fc314e'>@f12@</font>.<br><br>Cooldown: 45s (resets to 1.5s on takedown)<br><hr><br>Souls harvested: <font color='#fc314e'>@f5@</font><br>Current damage: <scaleLevel>@f7@</scaleLevel> <font color='#fc314e'>(+@f6@)</font> <scaleAD>(+@f10@)</scaleAD> <scaleAP>(+@f11@)</scaleAP> <br>Total damage dealt: @f9@",
     "shortDesc": "Damaging a low health champion inflicts <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword> and harvests a soul from the victim.",
@@ -241,6 +253,7 @@
   {
     "id": 8473,
     "name": "Bone Plating",
+    "namePt": "Osso Revestido",
     "majorChangePatchVersion": "9.9",
     "tooltip": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal <scaleLevel>@f2@</scaleLevel> less damage.<br><br>Duration: 1.5s<br>Cooldown: 55s<br><hr><br>Total Damage Reduced: <scaleLevel>@f1@</scaleLevel>",
     "shortDesc": "After taking damage from an enemy champion, the next 3 spells or attacks you receive from them deal 30-60 less damage.<br><br><br>Duration: 1.5s<br>Cooldown: 55s",
@@ -271,6 +284,7 @@
   {
     "id": 8214,
     "name": "Summon Aery",
+    "namePt": "Invocar Aery",
     "majorChangePatchVersion": "",
     "tooltip": "Damaging enemy champions with basic attacks or abilities sends Aery to them, dealing <font color='#FFFFFF'>@f5@</font> (+<scaleAP>@f6@</scaleAP>) (+<scaleAD>@f7@</scaleAD>).<br><br>Empower or protecting allies with abilities sends Aery to them, shielding them for <font color='#FFFFFF'>@f8@</font> (+<scaleAP>@f9@</scaleAP>) (+<scaleAD>@f10@</scaleAD>).<br><br>Aery cannot be sent out again until she returns to you.<br><br><hr><br>Aery has attacked enemies <font color='#FFFFFF'>@f1@</font> times for a total of <font color='#FFFFFF'>@f3@</font> damage.<br>Aery has helped allies <font color='#FFFFFF'>@f2@</font> times, shielding a total of <font color='#FFFFFF'>@f4@</font> damage.",
     "shortDesc": "Your attacks and abilities send Aery to a target, damaging enemies or shielding allies.",
@@ -286,6 +300,7 @@
   {
     "id": 8237,
     "name": "Scorch",
+    "namePt": "Chamuscar",
     "majorChangePatchVersion": "9.9",
     "tooltip": "Your next damaging ability hit sets champions on fire dealing 20 - 40 bonus magic damage based on level after 1s.<br><br>Cooldown: 10s<br><hr><br>Current Damage: @f2@<br>Total Damage Dealt: @f1@",
     "shortDesc": "Your first damaging ability hit every 10s burns champions.",
@@ -303,6 +318,7 @@
   {
     "id": 8139,
     "name": "Taste of Blood",
+    "namePt": "Gosto de Sangue",
     "majorChangePatchVersion": "",
     "tooltip": "Heal when you damage an enemy champion.<br><br>Healing: <font color='#ffffff'>@f2@</font> (+<scaleAD>@f3@</scaleAD>) (+<scaleAP>@f4@</scaleAP>)<br><br>Cooldown: 20s<br><hr><br>Total Healing: @f1@",
     "shortDesc": "Heal when you damage an enemy champion.",
@@ -319,6 +335,7 @@
   {
     "id": 8008,
     "name": "Lethal Tempo",
+    "namePt": "Ritmo Fatal",
     "majorChangePatchVersion": "",
     "tooltip": "Gain %i:scaleAS% (%i:meleeActive% @ASMelee@ || %i:rangedActive% @ASRanged@) Attack Speed for 6 seconds when you attack an enemy champion. This effect stacks up to 6 times.<br><br>While this effect is fully stacked, your Attack Speed can exceed 2.5 and you also gain 50 Attack Range.<br><hr><br>Capstone Uptime: @f1@s",
     "shortDesc": "Gain Attack Speed when attacking an enemy champion, stacking up to 6 times. At max stacks, gain Attack Range and remove your Attack Speed limit.",
@@ -333,6 +350,7 @@
   {
     "id": 9105,
     "name": "Legend: Tenacity",
+    "namePt": "Lenda: Tenacidade",
     "majorChangePatchVersion": "",
     "tooltip": "Gain 5% tenacity plus an additional 1.5% for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total tenacity granted: <scaleAD>@f1*100@%</scaleAD> (<statGood>@f3@ of 10</statGood>)<br>Progress Towards Next Stack: @f2@%",
     "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent <b>Tenacity</b>. ",
@@ -350,6 +368,7 @@
   {
     "id": 8010,
     "name": "Conqueror",
+    "namePt": "Conquistador",
     "majorChangePatchVersion": "9.4",
     "tooltip": "Basic attacks or spells that deal damage to an enemy champion grant 2 stacks of Conqueror for 5s, gaining <scaleLevel>@f5.1@</scaleLevel> <scaleAD>Attack Damage</scaleAD> per stack. Stacks up to 12 times. Ranged champions gain only 1 stack per basic attack.<br><br>When fully stacked, heal for 8% of the damage you deal to champions (5% for ranged champions).<br><br>Total Healing: @f1@",
     "shortDesc": "Gain stacks of adaptive force when attacking enemy champions. After reaching 12 stacks, heal for a portion of damage you deal to champions.",
@@ -364,6 +383,7 @@
   {
     "id": 8106,
     "name": "Ultimate Hunter",
+    "namePt": "Caça Suprema",
     "majorChangePatchVersion": "9.9",
     "tooltip": "Your ultimate gains <attention>6</attention> Ability Haste, plus an additional <attention>5</attention> Ability Haste per <i>Bounty Hunter</i> stack.<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><hr><br><u>No Claimable Bounties</u>",
     "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent cooldown reduction on your Ultimate. ",
@@ -380,6 +400,7 @@
   {
     "id": 8017,
     "name": "Cut Down",
+    "namePt": "Dilacerar",
     "majorChangePatchVersion": "",
     "tooltip": "Deal 5% to 15% more damage to champions, based on how much more max health they have than you.<br><br><rules>Bonus damage scales up linearly against enemies with 10% to 100% more max health than you.</rules><br><hr><br>Total bonus damage: <scaleAD>@f1@</scaleAD>",
     "shortDesc": "Deal more damage to champions with more max health than you.",
@@ -397,6 +418,7 @@
   {
     "id": 8224,
     "name": "Nullifying Orb",
+    "namePt": "Orbe Anulador",
     "majorChangePatchVersion": "",
     "tooltip": "When you take magic damage that would reduce your Health below 30%, gain a shield that absorbs @NullifyingShieldSize@ magic damage for 4s.<br><br>Cooldown: 60s<br><hr><br>Total Magic Damage Blocked: @f1@",
     "shortDesc": "Gain a magic damage shield when taken to low health by magic damage.",
@@ -413,6 +435,7 @@
   {
     "id": 8210,
     "name": "Transcendence",
+    "namePt": "Transcendência",
     "majorChangePatchVersion": "",
     "tooltip": "Gain bonuses upon reaching the following levels:<br>Level 5: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> <br>Level 8: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> <br>Level 11: On Champion takedown, reduce the remaining cooldown of basic abilities by 20%.<br><br><hr><br>Bonus Ability Haste: +@f4*100@<br>Seconds Refunded: @f3@",
     "shortDesc": "Gain bonuses upon reaching the following levels:<br>Level 5: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> <br>Level 8: +5 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> <br>Level 11: On Champion takedown, reduce the remaining cooldown of basic abilities by 20%.",
@@ -429,6 +452,7 @@
   {
     "id": 8005,
     "name": "Press the Attack",
+    "namePt": "Pressione o Ataque",
     "majorChangePatchVersion": "",
     "tooltip": "Hitting an enemy champion with 3 consecutive basic attacks deals <scaleLevel>@f4@</scaleLevel> bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'><font color='#48C4B7'>adaptive damage</font></lol-uikit-tooltipped-keyword> (based on level) and makes them vulnerable, increasing the damage they take by <scaleLevel>@f7@%</scaleLevel> from all sources for 6s.<br><hr><br>Bonus Damage Dealt: <scaleAD>@f2@</scaleAD><br>Total Exposure Damage: <scaleAD>@f3@</scaleAD>",
     "shortDesc": "Hitting an enemy champion 3 consecutive times makes them vulnerable, dealing bonus damage and causing them to take more damage from all sources for 6s.",
@@ -486,6 +510,7 @@
   {
     "id": 8352,
     "name": "Time Warp Tonic",
+    "namePt": "Tônico de Distorção no Tempo",
     "majorChangePatchVersion": "8.22",
     "tooltip": "Consuming a potion or biscuit grants 30% of its health or mana restoration immediately. In addition, gain <speed>2% Move Speed</speed> while under their effects.<br><br><br><hr><br>Time Spent hasted: @f1@s<br>Total health instantly restored: @f2@<br>Total mana instantly restored: @f3@",
     "shortDesc": "Potions and biscuits grant some restoration immediately. Gain <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword>  while under their effects.",
@@ -517,6 +542,7 @@
   {
     "id": 8135,
     "name": "Treasure Hunter",
+    "namePt": "Caçador de Tesouros",
     "majorChangePatchVersion": "",
     "tooltip": "Gain an additional <gold>50 gold</gold> the next time you collect a <i>Bounty Hunter</i> stack. Increase the gold gained by <gold>20 gold</gold> for each <i>Bounty Hunter</i> stack, up to <gold>130 gold</gold>.<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br>Current Bounty Available: <gold>@f15@ gold</gold><br>Bonus Gold Collected: <gold>@f3@ gold</gold><br><hr><br><u>No Claimable Bounties</u>",
     "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant additional gold the first time they are collected. ",
@@ -534,6 +560,7 @@
   {
     "id": 8120,
     "name": "Ghost Poro",
+    "namePt": "Poro Fantasma",
     "majorChangePatchVersion": "9.9",
     "tooltip": "When your wards expire, they leave behind a Ghost Poro, which grants vision for 90s. Nearby enemy champions scare the Ghost Poro away.<br><br>Gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 1.2 Attack Damage or 2 Ability Power for every Ghost Poro spawned and when your Ghost Poro spots an enemy champion up to 10 stacks. <br><br>After gaining 10 stacks, additionally gain 10 adaptive force.<br><hr><br>Stats Gained: <scaleAD>+@f2@ Attack Damage</scaleAD><br>Poros Spawned: @f3@<br>Enemies Spotted: @f5@",
     "shortDesc": "When your wards expire, they leave behind a Ghost Poro. The Ghost Poro grants vision until discovered. Gain permanent AD or AP, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptive</lol-uikit-tooltipped-keyword> for each Ghost Poro and when your Ghost Poro spots an enemy champion, plus bonus upon completion.",
@@ -551,6 +578,7 @@
   {
     "id": 8134,
     "name": "Ingenious Hunter",
+    "namePt": "Caça Ardilosa",
     "majorChangePatchVersion": "",
     "tooltip": "Gain <attention>20</attention> <b>Item Haste</b> plus an additional <attention>6</attention> <b>Item Haste</b> per <i>Bounty Hunter</i> stack (includes Trinkets).<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br><rules>Item Haste affects all items with cooldowns. </rules><br><br>Total item activations (including Trinkets): @f3@<br><hr><br><u>No Claimable Bounties</u>",
     "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent Item <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Haste</lol-uikit-tooltipped-keyword> (includes Trinkets).",
@@ -569,6 +597,7 @@
   {
     "id": 8351,
     "name": "Glacial Augment",
+    "namePt": "Aprimoramento Glacial",
     "majorChangePatchVersion": "",
     "tooltip": "Immobilizing an enemy champion will cause 3 glacial rays to emanate from them towards you and other nearby champions, creating frozen zones for 3 (+ 100% of the immobilizing effect's duration) seconds that slow enemies and reduce their damage by 15% against your allies (not including yourself). <br><br>Cooldown: 25s<br>Slow Amount: @f3@% = 20% <healing>+@f4@% (%i:scaleHealShield%)</healing> <scaleAP>+@f5@% (%i:scaleAP%)</scaleAP> <scaleAD>+@f6@% (%i:scaleAD%)</scaleAD> <br>Duration Enemy Champs Slowed: @f1@s<br>Damage Reduced: @f2@",
     "shortDesc": "Immobilizing an enemy champion will cause 3 glacial rays that slow nearby enemies and reduce their damage to your allies.",
@@ -584,6 +613,7 @@
   {
     "id": 8242,
     "name": "Unflinching",
+    "namePt": "Inabalável",
     "majorChangePatchVersion": "",
     "tooltip": "Gain 5% Tenacity and 5% Slow Resist. These values increase by up to an additional 20% Tenacity and 20% Slow Resist based on missing health. Maximum value achieved at 30% health. <br>Current Bonus Tenacity: @f1@%<br>Current Bonus Slow Resist: @f2@%<br><br>Total combat time with increased resistances: @f6@ seconds.",
     "shortDesc": "Gain a small amount of tenacity that increases with missing health. ",
@@ -601,6 +631,7 @@
   {
     "id": 8401,
     "name": "Shield Bash",
+    "namePt": "Golpe de Escudo",
     "majorChangePatchVersion": "8.23",
     "tooltip": "While shielded, gain <scaleLevel>@f6@</scaleLevel> bonus Armor and Magic Resist.<br><br>Whenever you gain a new shield, your next basic attack against a champion deals <scaleLevel>@f4@</scaleLevel> <scaleHealth>(+@f2@)</scaleHealth> <scaleMana>(+8.5% New Shield Amount)</scaleMana> bonus magic damage.<br><br>You have up to 2s after the shield expires to use this effect.<br><hr><br>Total Damage Dealt: @f1@",
     "shortDesc": "Whenever you gain a shield, your next basic attack against a champion deals bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> damage.",
@@ -618,6 +649,7 @@
   {
     "id": 9111,
     "name": "Triumph",
+    "namePt": "Triunfo",
     "majorChangePatchVersion": "",
     "tooltip": "Takedowns restore 5% of your missing health, 2.5% of your max health, and grant an additional 20 gold. <br><hr><br>Total health restored: <scaleAD>@f1@</scaleAD><br>Total bonus gold granted: <scaleAD>@f2@</scaleAD>",
     "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> restore 5% of your missing health and grant an additional 20 gold. ",
@@ -636,6 +668,7 @@
   {
     "id": 8105,
     "name": "Relentless Hunter",
+    "namePt": "Caça Incansável",
     "majorChangePatchVersion": "9.9",
     "tooltip": "Gain <speed>5 Move Speed</speed> out of combat plus <speed>8</speed> per <i>Bounty Hunter</i> stack.<br><br><i>Bounty Hunter</i> stacks are earned the first time you get a takedown on each enemy champion.<br><br>Current Relentless Hunter increase: <speed>@f3.2@% Move Speed</speed><br><hr><br><u>No Claimable Bounties</u>",
     "shortDesc": "<b>Unique</b> <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword> grant permanent <b>out of combat <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword></b>. ",
@@ -665,6 +698,7 @@
   {
     "id": 8275,
     "name": "Nimbus Cloak",
+    "namePt": "Manto de Nimbus",
     "majorChangePatchVersion": "8.11",
     "tooltip": "After casting a Summoner Spell, gain a <speed>Move Speed</speed> increase that lasts for 2s and allows you to pass through units.<br><hr><br>Increase: <speed>5% - 25% Move Speed</speed> based on the Summoner Spell's cooldown. (Higher cooldown Summoner Spells grant more <speed>Move Speed</speed>). <br><hr><br>Times activated: @f1@",
     "shortDesc": "After casting a Summoner Spell, gain a short <speed>Move Speed</speed> increase that allows you to pass through units.",
@@ -693,6 +727,7 @@
   {
     "id": 8439,
     "name": "Aftershock",
+    "namePt": "Pós-choque",
     "majorChangePatchVersion": "9.9",
     "tooltip": "After immobilizing an enemy champion, increase your Armor and Magic Resist for 2.5s. Then explode, dealing magic damage to nearby enemies.<br><br>Damage: <scaleLevel>@f4@</scaleLevel> <scaleHealth>(+@f5@)</scaleHealth> <br>Armor buff: @f8@<scaleArmor> (+@f2@)</scaleArmor><br>Magic Resist buff: @f8@<scaleMR> (+@f3@)</scaleMR><br>Cooldown: 20s<br><hr><br>Total damage dealt: <scaleAD>@f1@</scaleAD><br>Total damage mitigated: <scaleHealth>@f9@</scaleHealth>",
     "shortDesc": "After <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Immobilize'>immobilizing</lol-uikit-tooltipped-keyword> an enemy champion gain defenses and later deal a burst of magic damage around you.",
@@ -720,6 +755,7 @@
   {
     "id": 5002,
     "name": "Armor",
+    "namePt": "Armadura",
     "majorChangePatchVersion": "",
     "tooltip": "+6 Armor",
     "shortDesc": "+6 Armor",
@@ -744,6 +780,7 @@
   {
     "id": 5008,
     "name": "Adaptive Force",
+    "namePt": "Força Adaptativa",
     "majorChangePatchVersion": "",
     "tooltip": "<scaleAD>+@f2@ Attack Damage</scaleAD>",
     "shortDesc": "+9 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>Adaptive Force</font></lol-uikit-tooltipped-keyword>",
@@ -806,6 +843,7 @@
   {
     "id": 8014,
     "name": "Coup de Grace",
+    "namePt": "Golpe de Misericórdia",
     "majorChangePatchVersion": "",
     "tooltip": "Deal 8% more damage to champions who have less than 40% health.<br><hr><br>Total bonus damage dealt: <scaleAD>@f1@</scaleAD>",
     "shortDesc": "Deal more damage to low health enemy champions.",
@@ -823,6 +861,7 @@
   {
     "id": 5007,
     "name": "Ability Haste",
+    "namePt": "Aceleração de Habilidade",
     "majorChangePatchVersion": "",
     "tooltip": "+@f1@ Ability Haste",
     "shortDesc": "+8 <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_CDR'>Ability Haste</lol-uikit-tooltipped-keyword> ",
@@ -835,6 +874,7 @@
   {
     "id": 8021,
     "name": "Fleet Footwork",
+    "namePt": "Agilidade nos Pés",
     "majorChangePatchVersion": "",
     "tooltip": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack is Energized.<br><br>Energized attacks heal you for <font color='#ffffff'>@f2@</font> <scaleAD>(+@f3@)</scaleAD> <scaleAP>(+@f4@)</scaleAP> and grant <speed>@f5*100@% Move Speed</speed> for 1 second.<br><rules><br>Healing from minions is 10% effective for Ranged Champions, and 20% effective for Melee Champions.<br></rules><hr><br>Total Healing: @f1@",
     "shortDesc": "Attacking and moving builds Energy stacks. At 100 stacks, your next attack heals you and grants increased <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword>.",
@@ -849,6 +889,7 @@
   {
     "id": 8226,
     "name": "Manaflow Band",
+    "namePt": "Faixa de Fluxo de Mana",
     "majorChangePatchVersion": "8.7",
     "tooltip": "Hitting an enemy champion with an ability permanently increases your maximum mana by 25, up to 250 mana.<br><br>After reaching 250 bonus mana, restore 1% of your missing mana every 5 seconds.<br><br>Cooldown: 15 seconds<br><hr><br>Total bonus mana: @f1@<br>Total mana restored: @f2@",
     "shortDesc": "Hitting an enemy champion with an ability permanently increases your maximum mana by 25, up to 250 mana.<br><br>After reaching 250 bonus mana, restore 1% of your missing mana every 5 seconds.",
@@ -866,6 +907,7 @@
   {
     "id": 8451,
     "name": "Overgrowth",
+    "namePt": "Crescimento Excessivo",
     "majorChangePatchVersion": "8.23",
     "tooltip": "Absorb life essence from monsters or enemy minions that die near you, permanently gaining 3 maximum health for every 8.<br><br>When you've absorbed 120 monsters or enemy minions, gain an additional 3.5% maximum health.<br><hr><br>Total Max Health Earned: <scaleHealth>@f1@</scaleHealth><br>Enemies Absorbed: <passiveText>@f2@</passiveText>",
     "shortDesc": "Gain permanent max health when minions or monsters die near you.",
@@ -882,6 +924,7 @@
   {
     "id": 8313,
     "name": "Perfect Timing",
+    "namePt": "Sincronia Perfeita",
     "majorChangePatchVersion": "",
     "tooltip": "Begin the game with a Commencing Stopwatch that transforms into a Stopwatch after 14 minutes. Each takedown you acquire reduces this timer by 120 seconds.<br><br>Stopwatch can be used for a one time 2.5 second Stasis effect.",
     "shortDesc": "Gain a free Commencing Stopwatch. After 14 minutes, it can be used for a one time <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Stasis'>Stasis</lol-uikit-tooltipped-keyword> effect. <br><br>Each <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedown</lol-uikit-tooltipped-keyword> you get shortens this timer by 120 seconds.",
@@ -898,6 +941,7 @@
   {
     "id": 9103,
     "name": "Legend: Bloodline",
+    "namePt": "Lenda: Linhagem",
     "majorChangePatchVersion": "",
     "tooltip": "Gain <scaleAD>0.35% Life Steal</scaleAD> for every <i>Legend</i> stack (<statGood>max 15 stacks</statGood>). At maximum <i>Legend</i> stacks, gain <scaleHealth>85 max health</scaleHealth>.<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total Life Steal Granted: <scaleAD>@f1*100@%</scaleAD> (<statGood>@f3@ of 15</statGood>)<br>Progress Towards Next Stack: @f2@%<br>",
     "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent<b> Life Steal</b>, up to a cap. Once the cap is reached, increase your max health. Weaker earlier but stronger later game than other Legend Runes.",
@@ -926,6 +970,7 @@
   {
     "id": 8230,
     "name": "Phase Rush",
+    "namePt": "Ímpeto Gradual",
     "majorChangePatchVersion": "",
     "tooltip": "Hitting an enemy champion with 3 attacks or <b>separate</b> abilities within 4s grants <speed>15 - 40% Move Speed</speed> based on level and 75% Slow Resistance. <hr>This is increased to <speed>30 - 60% Move Speed</speed> for Melee champions.<hr>Duration: 3s<br>Cooldown: @f4@s<br>Haste Bonus: @f2@%",
     "shortDesc": "Hitting an enemy champion with 3 <b>separate</b> attacks or abilities grants a burst of <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword>. ",
@@ -952,6 +997,7 @@
   {
     "id": 8316,
     "name": "Minion Dematerializer",
+    "namePt": "Pulverizador de Tropas",
     "majorChangePatchVersion": "9.6",
     "tooltip": "Start the game with 3 Minion Dematerializers that kill and absorb lane minions instantly. Minion Dematerializers are on cooldown for the first 180s of the game.<br><br>Absorbing a minion increases your damage by +6% against that type of minion permanently, and an extra +3% for each additional minion of that type absorbed.<br><br><hr><br>Melee Bonus Damage: +@f1@%<br>Caster Bonus Damage: +@f2@%<br>Siege Bonus Damage: +@f3@%",
     "shortDesc": "Start the game with 3 Minion Dematerializers. Killing minions with the item gives permanent bonus damage vs. that minion type.",
@@ -968,6 +1014,7 @@
   {
     "id": 8463,
     "name": "Font of Life",
+    "namePt": "Fonte da Vida",
     "majorChangePatchVersion": "",
     "tooltip": "Impairing the movement of an enemy champion marks them for 4s.<br><br>Ally champions who attack marked enemies heal for 5 + 0.9% of your max health over 2s. ",
     "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_ImpairMov'>Impairing</lol-uikit-tooltipped-keyword> the movement of an enemy champion marks them. Your allies heal when attacking champions you've marked. ",
@@ -997,6 +1044,7 @@
   {
     "id": 8304,
     "name": "Magical Footwear",
+    "namePt": "Calçados Mágicos",
     "majorChangePatchVersion": "9.9",
     "tooltip": "You get free Slightly Magical Footwear at 12 min, but you cannot buy boots before then. For each takedown you acquire the boots 45s sooner.<br><br>Slightly Magical Footwear grants you an additional <speed>10 Move Speed</speed>.<br><hr><br><scaleAD>Boots arrival time:</scaleAD> @f1@:@f2@@f3@",
     "shortDesc": "You get free boots at 12 min but you cannot buy boots before then. Each <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedown</lol-uikit-tooltipped-keyword> you get makes your boots come 45s sooner.",
@@ -1014,6 +1062,7 @@
   {
     "id": 8236,
     "name": "Gathering Storm",
+    "namePt": "Tempestade Crescente",
     "majorChangePatchVersion": "",
     "tooltip": "Every 10 min gain AP or AD, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword>.<br><br><i>10 min</i>: + 8 AP or 5 AD <br><i>20 min</i>: + 24 AP or 14 AD<br><i>30 min</i>: + 48 AP or 29 AD<br><i>40 min</i>: + 80 AP or 48 AD<br><i>50 min</i>: + 120 AP or 72 AD<br><i>60 min</i>: + 168 AP or 101 AD<br>etc...<br><hr><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
     "shortDesc": "Gain increasing amounts of AD or AP, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptive</lol-uikit-tooltipped-keyword> over the course of the game.",
@@ -1031,6 +1080,7 @@
   {
     "id": 8009,
     "name": "Presence of Mind",
+    "namePt": "Presença de Espírito",
     "majorChangePatchVersion": "8.7",
     "tooltip": "Damaging an enemy champion increases your mana regeneration by @RegenAmount@ (80% for ranged) mana per second for 4 seconds. All energy users gain 1.5 energy per second, instead.<br><br>Takedowns restore 15% of your maximum mana or energy. <br><hr><br>Resource Restored: @f1@<br>",
     "shortDesc": "Increase your mana or energy regeneration when damaging an enemy champion. Takedowns restore mana or energy.",
@@ -1059,6 +1109,7 @@
   {
     "id": 9104,
     "name": "Legend: Alacrity",
+    "namePt": "Lenda: Espontaneidade",
     "majorChangePatchVersion": "",
     "tooltip": "Gain 3% attack speed plus an additional 1.5% for every <i>Legend</i> stack (<statGood>max 10 stacks</statGood>).<br><br>Earn progress toward <i>Legend</i> stacks for every champion takedown, epic monster takedown, large monster kill, and minion kill.<br><hr><br>Total Attack Speed added: <scaleAD>@f1*100@%</scaleAD> (<statGood>@f3@ of 10</statGood>)<br>Progress Towards Next Stack: @f2@%",
     "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemies grant permanent <b>Attack Speed</b>. ",
@@ -1087,6 +1138,7 @@
   {
     "id": 5005,
     "name": "Attack Speed",
+    "namePt": "Velocidade de Ataque",
     "majorChangePatchVersion": "",
     "tooltip": "+10% Attack Speed",
     "shortDesc": "+10% Attack Speed",
@@ -1098,7 +1150,8 @@
   },
   {
     "id": 8306,
-    "name": "Hextech Flashtraption",
+    "name": "Hextech Flash",
+    "namePt": "Flash Hextec",
     "majorChangePatchVersion": "",
     "tooltip": "While Flash is on cooldown it is replaced by <i>Hexflash</i>.<br><br><i>Hexflash</i>: Channel for 2s to blink to a new location.<br><br>Cooldown: 20s. Goes on a 10s cooldown when you enter champion combat.",
     "shortDesc": "While Flash is on cooldown it is replaced by <i>Hexflash</i>.<br><br><i>Hexflash</i>: Channel, then blink to a new location.",
@@ -1115,6 +1168,7 @@
   {
     "id": 8465,
     "name": "Guardian",
+    "namePt": "Guardião",
     "majorChangePatchVersion": "",
     "tooltip": "<i>Guard</i> allies within 350 units of you, and allies you target with spells for 2.5s. While <i>Guarding</i>, if you or the ally take more than a small amount of damage over the duration of the <i>Guard</i>, both of you gain a shield for 1.5s.<br><hr><br>Cooldown: <scaleLevel>@f5@</scaleLevel> seconds<br>Current shield strength: <scaleLevel>@f2@</scaleLevel> <scaleAP>(+@f3@)</scaleAP> <scaleHealth>(+@f4@)</scaleHealth>.",
     "shortDesc": "Guard allies you cast spells on and those that are very nearby. If you or a guarded ally would take damage based on level, you're both granted a shield.",
@@ -1129,6 +1183,7 @@
   {
     "id": 8138,
     "name": "Eyeball Collection",
+    "namePt": "Globos Oculares",
     "majorChangePatchVersion": "",
     "tooltip": "Collect eyeballs for champion takedowns. Gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 1.2 Attack Damage or 2 Ability Power, per eyeball collected. <br><br>Upon completing your collection at 10 eyeballs, additionally gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 6 Attack Damage, or 10 Ability Power.<br><br>Collect 1 eyeball per champion takedown.<br><hr><br>Stats Gained: <scaleAD>+@f2@ Attack Damage</scaleAD><br>Eyeballs Collected: @f3@/10",
     "shortDesc": "Collect eyeballs for champion <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>takedowns</lol-uikit-tooltipped-keyword>. Gain permanent AD or AP, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptive</lol-uikit-tooltipped-keyword> for each eyeball plus bonus upon collection completion.",
@@ -1158,6 +1213,7 @@
   {
     "id": 8143,
     "name": "Sudden Impact",
+    "namePt": "Impacto Repentino",
     "majorChangePatchVersion": "",
     "tooltip": "After exiting stealth or using a dash, leap, blink, or teleport, dealing any damage to a champion grants you 9 Lethality and 7 Magic Penetration for 5s.<br><br>Cooldown: 4s<br><hr><br>Bonus champion damage: @f1@",
     "shortDesc": "Gain a burst of Lethality and Magic Penetration after using a dash, leap, blink, teleport, or when leaving stealth.",
@@ -1175,6 +1231,7 @@
   {
     "id": 8345,
     "name": "Biscuit Delivery",
+    "namePt": "Entrega de Biscoitos",
     "majorChangePatchVersion": "",
     "tooltip": "Biscuit Delivery: Gain a Total Biscuit of Everlasting Will every 2 mins, until 6 min.<br><br>Biscuits restore 8% of your missing health and mana. Consuming or selling a Biscuit permanently increases your mana cap by 40. <br><br><i>Manaless:</i> Champions without mana restore 12% missing health instead.<br><hr><br>Biscuits Gained: @f1@/@f2@",
     "shortDesc": "Gain a free Biscuit every 2 min, until 6 min. Consuming or selling a Biscuit permanently increases your max mana and restores health and mana.",
@@ -1192,6 +1249,7 @@
   {
     "id": 8444,
     "name": "Second Wind",
+    "namePt": "Ventos Revigorantes",
     "majorChangePatchVersion": "",
     "tooltip": "After taking damage from an enemy champion, heal for 4% of your missing health +3 over 10s.<br><hr><br><scaleAD>Total healing: @f1@</scaleAD>",
     "shortDesc": "After taking damage from an enemy champion heal back some missing health over time. ",
@@ -1220,6 +1278,7 @@
   {
     "id": 8437,
     "name": "Grasp of the Undying",
+    "namePt": "Aperto dos Mortos-Vivos",
     "majorChangePatchVersion": "",
     "tooltip": "Every 4s in combat, your next basic attack on a champion will:<li>Deal bonus magic damage equal to 3.5% of your max health</li><li>Heals you for 3 + 1.2% of your max health</li><li>Permanently increase your health by 7</li><br><rules><i>Ranged Champions:</i> Damage, healing, and permanent health gained reduced by 40%.</rules><br><br>Damage to Champions: <scaleHealth>@f1@</scaleHealth><br>Total Healing: <scaleHealth>@f2@</scaleHealth><br>Times Used: @f3@",
     "shortDesc": "Every 4s your next attack on a champion deals bonus magic damage, heals you, and permanently increases your health.",
@@ -1235,6 +1294,7 @@
   {
     "id": 9923,
     "name": "Hail of Blades",
+    "namePt": "Chuva de Lâminas",
     "majorChangePatchVersion": "8.11",
     "tooltip": "Gain @f3@% Attack Speed when you attack an enemy champion for up to 3 attacks. <br><br>Cooldown: 12s.<br><hr><br>Hail of Blades attacks: @f1@<br>Percentage of Hail attacks landed: @f2@%<br><br><rules>Basic Attack resets increase the attack limit by 1.<br>Allows you to temporarily exceed the attack speed limit.</rules>",
     "shortDesc": "Gain a large amount of Attack Speed for the first 3 attacks made against enemy champions.",
@@ -1250,6 +1310,7 @@
   {
     "id": 8429,
     "name": "Conditioning",
+    "namePt": "Condicionamento",
     "majorChangePatchVersion": "9.9",
     "tooltip": "After 12 min gain +8 Armor and +8 Magic Resist and increase your bonus Armor and Magic Resist by 3%.<br><br>Armor Gained: @f3@ <scaleArmor>(+@f4@)</scaleArmor><br>Resist Gained: @f5@ <scaleMR>(+@f6@)</scaleMR>",
     "shortDesc": "After 12 min gain +8 Armor and +8 Magic Resist and increase your bonus Armor and Magic Resist by 3%.",
@@ -1268,6 +1329,7 @@
   {
     "id": 8124,
     "name": "Predator",
+    "namePt": "Predador",
     "majorChangePatchVersion": "",
     "tooltip": "Enchants your boots with the active effect <font color='#c60300'>Predator</font>.<br><br>Gain increased <speed>Move Speed</speed>, ramping up to <speed>@MaxMSLevelCalc@ Move Speed</speed> over 1.5 seconds, while chasing enemy champions. Damaging attacks or abilities to champions end this effect, dealing <scaleLevel>@f3@</scaleLevel> <scaleAP>(+@f5@)</scaleAP> <scaleAD>(+@f4@)</scaleAD> bonus damage. <br><br>Cooldown: <scaleLevel>@f7@</scaleLevel>s<br><hr><br>Damage Dealt To Champions: @f1@",
     "shortDesc": "Add an active effect to your boots that grants a large boost of <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_MS'>MS</lol-uikit-tooltipped-keyword> and causes your next attack or ability to deal bonus <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword>.",
@@ -1282,6 +1344,7 @@
   {
     "id": 8233,
     "name": "Absolute Focus",
+    "namePt": "Foco Absoluto",
     "majorChangePatchVersion": "",
     "tooltip": "While above 70% health, gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of up to 18 Attack Damage or 30 Ability Power (based on level). <br><br>Grants 1.8 Attack Damage or 3 Ability Power at level 1. <br><hr><br>Current Bonus: <scaleAD>+@f1@ <scaleAD>Attack Damage</scaleAD></scaleAD>",
     "shortDesc": "While above 70% health, gain extra <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_AdaptiveDmg'>adaptive damage</lol-uikit-tooltipped-keyword>.",
@@ -1311,6 +1374,7 @@
   {
     "id": 8136,
     "name": "Zombie Ward",
+    "namePt": "Sentinela Zumbi",
     "majorChangePatchVersion": "8.14",
     "tooltip": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemy Wards cause friendly Zombie Wards to sprout from their corpses.<br><br>Gain an <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'><font color='#48C4B7'>adaptive</font></lol-uikit-tooltipped-keyword> bonus of 1.2 Attack Damage or 2 Ability Power for every Zombie Ward spawned, up to 10. <br><br>After spawning 10 Zombie Wards, additionally gain 10 adaptive force.<br><br>Zombie Wards are visible, last for 120s and do not count towards your ward limit.<br><hr><br>Stats Gained: <scaleAD>+@f2@ Attack Damage</scaleAD><br>Zombie Wards raised: @f1@",
     "shortDesc": "<lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Takedown'>Takedowns</lol-uikit-tooltipped-keyword> on enemy Wards cause friendly Zombie Wards to sprout from their corpses. Gain permanent AD or AP, <lol-uikit-tooltipped-keyword key='LinkTooltip_Description_Adaptive'>adaptive</lol-uikit-tooltipped-keyword> for each Zombie Ward spawned plus bonus upon completion.",
@@ -1340,6 +1404,7 @@
   {
     "id": 8347,
     "name": "Cosmic Insight",
+    "namePt": "Perspicácia Cósmica",
     "majorChangePatchVersion": "",
     "tooltip": "+<attention>18</attention> Summoner Spell Haste<br>+<attention>10</attention> Item Haste",
     "shortDesc": "+<attention>18</attention> Summoner Spell Haste<br>+<attention>10</attention> Item Haste",
@@ -1368,6 +1433,7 @@
   {
     "id": 8229,
     "name": "Arcane Comet",
+    "namePt": "Cometa Arcano",
     "majorChangePatchVersion": "",
     "tooltip": "Damaging a champion with an ability hurls a comet at their location, or, if Arcane Comet is on cooldown, reduces its remaining cooldown.<br><rules><br>Cooldown Reduction:<br>Single Target: 20%.<br>Area of Effect: 10%.<br>Damage over Time: 5%.<br></rules><br>Damage: <font color='#FFFFFF'>@f5@</font> (+<scaleAP>@f6@</scaleAP>) (+<scaleAD>@f7@</scaleAD>)<br>Cooldown: @f2@s<br><hr><br>You have hit with @f3@% of comets fired, for a total of @f1@ damage to champions.",
     "shortDesc": "Damaging a champion with an ability hurls a damaging comet at their location.",
@@ -1394,6 +1460,7 @@
   {
     "id": 9101,
     "name": "Overheal",
+    "namePt": "Cura Excessiva",
     "majorChangePatchVersion": "",
     "tooltip": "Excess healing on you becomes a shield for up to <scaleLevel>@OverhealShieldCap@</scaleLevel> Health.<br><br>Shield is built up from <scaleLevel>@f6@%</scaleLevel> of excess healing from yourself or any ally.<br><hr><br><b>Total damage blocked: <scaleAD>@f1@</scaleAD></b>",
     "shortDesc": "Excess healing on you becomes a shield.",
