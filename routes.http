@@ -3,3 +3,7 @@
 GET http://localhost:3333/getRunesRoute
 
 ###
+
+# @name get-summoner-id
+
+GET http://localhost:3333/getSummonerId
